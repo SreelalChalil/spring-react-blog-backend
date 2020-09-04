@@ -1,10 +1,11 @@
 package com.example.demo.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.dao.Blog;
+import com.example.demo.model.Blog;
+
 @Repository
-public interface BlogRepository extends CrudRepository<Blog, Long> {
+public interface BlogRepository extends MongoRepository<Blog, Long> {
 
 }

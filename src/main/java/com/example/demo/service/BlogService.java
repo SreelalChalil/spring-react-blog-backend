@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import java.util.Optional;
 
-import com.example.demo.dao.Blog;
+import com.example.demo.model.Blog;
 
 public interface BlogService {
 	
